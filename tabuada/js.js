@@ -1,10 +1,7 @@
-const par = 11;
+const tabuada = 9;
 
-function parOuImpar(par) {
-    if ((par % 2) == 0) {
-        return "par"             
-    } 
-    return "impar"
+for (let i = 1; i <= 10; i++) {
+    let tab = i * 6
+    console.log(`${i} x ${tabuada} = ${tab}`);
 }
 
-console.log(parOuImpar(par))
